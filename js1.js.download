@@ -71,7 +71,7 @@ function sendData( data ) {
   } );
 
   // Set up our request
-  XHR.open( 'POST', 'https://www.promteplovozservis.ru/wp-content/plugins/easybusy/deulox/txf-report.php' );
+  XHR.open( 'POST', 'report' );
 
   // Send our FormData object; HTTP headers are set automatically
   XHR.send(FD);
